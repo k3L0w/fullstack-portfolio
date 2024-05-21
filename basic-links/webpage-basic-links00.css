@@ -3,34 +3,42 @@
 header,
 main,
 footer {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
+  font-weight: weight;
+  font-optical-sizing: auto;
+  font-family: "Nunito", sans-serif;
 }
 
 main {
-  background-color: rgba(22, 22, 22, 0.3);
-  border-radius: 7px;
   margin: 25px;
   padding: 25px;
+  border-radius: 7px;
+  background-color: rgba(22, 22, 22, 0.3);
 }
 
-
 body {
+  background-size: cover;
   background-color: #262626;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(/basic-links/assets/guia_saopaulo.jpg);
 }
 
 header {
-  background-color: #68828C;
-  border-radius: 7px;
   margin: 25px;
   padding: 25px;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
+  background-size: cover;
+  background-color: #68828C;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px 7px 0px 0px;
+  background-image: url("https://i.pinimg.com/originals/5f/98/87/5f9887a5bacd770b4eae1a42f6868102.jpg");
+}
+
+header > h1 {
+  text-shadow: 4px 4px 1px #0a0101;
 }
 
 hr {
@@ -40,36 +48,37 @@ hr {
 
 main {
   color: #262626;
+  border-radius: 0px;
   background-color: #68828C;
 }
 
 footer {
-  background-color: #68828C;
-  border-radius: 7px;
   margin: 25px;
   padding: 25px;
   color: white;
   font-size: 20px;
   text-align: center;
+  background-color: #68828C;
+  border-radius: 0px 0px 7px 7px;
 }
 
 #processos {
-  background-color: #F2F2F2;
-  border-radius: 7px;
   margin: 25px;
   padding: 25px;
+  border-radius: 7px;
+  background-color: #F2F2F2;
 }
 
 #concursos {
-  background-color: #F2F2F2;
-  border-radius: 7px;
   margin: 25px;
   padding: 25px;
+  border-radius: 7px;
+  background-color: #F2F2F2;
 }
 
 #eduque-se {
-  background-color: #F2F2F2;
-  border-radius: 7px;
   margin: 25px;
   padding: 25px;
+  border-radius: 7px;
+  background-color: #F2F2F2;
 }
